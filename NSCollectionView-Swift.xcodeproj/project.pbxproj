@@ -12,6 +12,10 @@
 		163B95E21DF844DD00F574FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163B95E11DF844DD00F574FE /* Assets.xcassets */; };
 		163B95E51DF844DD00F574FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163B95E31DF844DD00F574FE /* Main.storyboard */; };
 		163B96091DF846E500F574FE /* MyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163B96081DF846E500F574FE /* MyEntity.swift */; };
+		1652FA801DF855A800E0A27C /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652FA7F1DF855A800E0A27C /* GridViewController.swift */; };
+		1652FA831DF855C600E0A27C /* FlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652FA811DF855C600E0A27C /* FlowViewController.swift */; };
+		1652FA8D1DF918A400E0A27C /* MyCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652FA8B1DF918A400E0A27C /* MyCollectionViewItem.swift */; };
+		1652FA8E1DF918A400E0A27C /* MyCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1652FA8C1DF918A400E0A27C /* MyCollectionViewItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		163B95E41DF844DD00F574FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		163B95E61DF844DD00F574FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163B96081DF846E500F574FE /* MyEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEntity.swift; sourceTree = "<group>"; };
+		1652FA7F1DF855A800E0A27C /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		1652FA811DF855C600E0A27C /* FlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowViewController.swift; sourceTree = "<group>"; };
+		1652FA8B1DF918A400E0A27C /* MyCollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewItem.swift; sourceTree = "<group>"; };
+		1652FA8C1DF918A400E0A27C /* MyCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				163B95DD1DF844DD00F574FE /* AppDelegate.swift */,
 				163B95DF1DF844DD00F574FE /* ViewController.swift */,
+				1652FA7F1DF855A800E0A27C /* GridViewController.swift */,
+				1652FA811DF855C600E0A27C /* FlowViewController.swift */,
 				163B95E11DF844DD00F574FE /* Assets.xcassets */,
 				163B95E31DF844DD00F574FE /* Main.storyboard */,
 				163B95E61DF844DD00F574FE /* Info.plist */,
 				163B96081DF846E500F574FE /* MyEntity.swift */,
+				1652FA8B1DF918A400E0A27C /* MyCollectionViewItem.swift */,
+				1652FA8C1DF918A400E0A27C /* MyCollectionViewItem.xib */,
 			);
 			path = "NSCollectionView-Swift";
 			sourceTree = "<group>";
@@ -123,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1652FA8E1DF918A400E0A27C /* MyCollectionViewItem.xib in Resources */,
 				163B95E21DF844DD00F574FE /* Assets.xcassets in Resources */,
 				163B95E51DF844DD00F574FE /* Main.storyboard in Resources */,
 			);
@@ -135,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1652FA801DF855A800E0A27C /* GridViewController.swift in Sources */,
 				163B95E01DF844DD00F574FE /* ViewController.swift in Sources */,
+				1652FA831DF855C600E0A27C /* FlowViewController.swift in Sources */,
+				1652FA8D1DF918A400E0A27C /* MyCollectionViewItem.swift in Sources */,
 				163B96091DF846E500F574FE /* MyEntity.swift in Sources */,
 				163B95DE1DF844DD00F574FE /* AppDelegate.swift in Sources */,
 			);
