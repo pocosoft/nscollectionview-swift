@@ -26,7 +26,7 @@ class FlowViewController: NSViewController, NSCollectionViewDataSource {
     
     func collectionView(_ collectionView: NSCollectionView, itemForRepresentedObjectAt indexPath: IndexPath) -> NSCollectionViewItem {
         let item = collectionView.makeItem(withIdentifier: "Cell", for: indexPath) as! MyCollectionViewItem
-        item.label.stringValue = "\(indexPath.count)"
+        item.label.stringValue = "\(indexPath.item)"
         return item
     }
 
